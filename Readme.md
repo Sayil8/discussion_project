@@ -2,7 +2,7 @@
 
 
 ###Project Objective
-This project consists of various microservices which work together to build a complex web app. This is better know as microservices architecture. You can find all the information regarding Microservices architecture in this book: 
+This project consists of various microservices which work together to build a complex web app. This is better know as microservices architecture. You can find all the information regarding Microservices architecture in this book: *PHP Microservices by Carlos Perez Sanchez and Pablo Solar*
 
 The application is divided into services which allows the application to grow horizontally more easily. 
 
