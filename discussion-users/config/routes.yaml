@@ -1,0 +1,18 @@
+api_login_check:
+  path: /api/login_check
+
+gesdinet_jwt_refresh_token:
+  path:       /api/token/refresh
+  controller: gesdinet.jwtrefreshtoken::refresh
+
+api_get_user:
+  path: /api/user
+  controller: App\Infrastructure\RegisterController:getUserWithEmail
+
+api_get_users:
+  path: /api/users
+  controller: App\Infrastructure\RegisterController:getAllUsers
+
+register:
+  path: /register
+  controller: App\Infrastructure\RegisterController:registerUser
