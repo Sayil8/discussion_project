@@ -1,0 +1,12 @@
+saveComment:
+   path: /api/comment/save
+   methods: POST
+   controller: App\Controller\CommentController::storeComment
+getCommetsinArticle:
+   path: /api/comment/commentarticles/{articleId}
+   methods: GET
+   controller: App\Controller\CommentController::getCommentinArticle
+deleteCommentsInArticle:
+   path: /api/comment/commentarticles/{articleId}
+   methods: DELETE
+   controller: App\Controller\CommentController:deleteCommentInArticle

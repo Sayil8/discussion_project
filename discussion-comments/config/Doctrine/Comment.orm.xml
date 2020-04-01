@@ -1,0 +1,10 @@
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
+    <entity name="App\Domain\Entity\Comment">
+        <id name="id" type="integer" column="id">
+            <generator strategy="AUTO"></generator>
+        </id>
+        <field name="articleId" type="integer" column="article_id"></field>
+        <field name="userId" type="integer" column="user_id"></field>
+        <field name="content" column="content" type="string" length="255"></field>
+    </entity>
+</doctrine-mapping>
